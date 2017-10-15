@@ -2,7 +2,7 @@
 <!-- #Project Raspberry IOT Temperature monitoring -->
 <!-- #Server side code to read data and display to webview -->
 <!-- #Create by Minh Toan -->
-<!-- #Create on 5 October, 2017 -->
+<!-- #Create on 15 October, 2017 -->
 
 <?php
 $username="root";
@@ -15,13 +15,33 @@ $result=$mysqli->query($query);
 ?>
 
 <html>
-  	 <head>
+	<head>
+  	 	<style type="text/css">
+  	 		#tb{
+  	 			border-style: solid;
+  	 			border-color: teal;
+  	 			border-width: 1;
+  	 			color: teal
+  	 		}
+  	 		h2{
+  	 			color: teal
+  	 		}
+  	 		td{
+  	 			border-style: solid;
+  	 			border-width: 1;
+  	 			border-color: teal
+  	 		}
+  	 		td:hover{
+  	 			color: white;
+  	 			background-color: teal
+  	 		}
+  	 	</style>
      	<title>Sensor Data</title>
    	</head>
 <body>
    	<h2>Temperature readings</h2>
 
-   	<table border="1" cellspacing="1" cellpadding="1">
+   	<table id="tb">
 		<tr>
 			<td>&nbsp;Date&nbsp;</td>
 			<td>&nbsp;Time&nbsp;</td>
