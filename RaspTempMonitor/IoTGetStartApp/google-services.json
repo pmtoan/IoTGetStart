@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "404000125562",
+    "firebase_url": "https://iot-temperature-180710.firebaseio.com",
+    "project_id": "iot-temperature-180710",
+    "storage_bucket": "iot-temperature-180710.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404000125562:android:d4fd4b44bcfe56fe",
+        "android_client_info": {
+          "package_name": "com.example.minhtoan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404000125562-cfk552oaa2arej9133anl1v7o7lctom9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGm59BM2lZFyxlToF6ed3M6p-6AWf5kcA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404000125562:android:20a281a0b8028538",
+        "android_client_info": {
+          "package_name": "com.example.minhtoan.iot_temp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404000125562-bar7r0v14dhc6hnhbuvf93dom5eua9jr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.minhtoan.iot_temp",
+            "certificate_hash": "3ac2efa855973fa044fb8826ccd0bacef314c092"
+          }
+        },
+        {
+          "client_id": "404000125562-cfk552oaa2arej9133anl1v7o7lctom9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGm59BM2lZFyxlToF6ed3M6p-6AWf5kcA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404000125562-cfk552oaa2arej9133anl1v7o7lctom9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
