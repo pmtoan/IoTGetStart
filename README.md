@@ -1,2 +1,1 @@
-# Rasp
-Raspberry project
+Simple IoT Project to get start
