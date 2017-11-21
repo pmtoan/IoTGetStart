@@ -5,7 +5,7 @@
 
 <?php
    function sendPushNotificationToGCM($registration_ids, $message) {
-   		define('API_ACCESS_KEY', 'AAAAXhBIsno:APA91bHQc5sKKlhCgEoXhVeGWAKa7jhFQP4OX_BxhKqOzibvIxJSiwqOyxGTcKoG95gN75fFR4kqXohIBBvt_yryuCyne2t0j7rSKnxzWJ4thFcTKqjv7DZXv-9gV-Gz2VpiMWe3raDJ '
+   		define('API_ACCESS_KEY', ''
     	);
         $url = 'https://fcm.googleapis.com/fcm/send';
         $msg = array
